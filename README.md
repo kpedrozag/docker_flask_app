@@ -8,6 +8,6 @@ The API listen the requests through the port 5000
 
 ## How to deploy the API:
 
-  1. Clone the repository: `$ git clone https://github.com/kpedrozag/docker_flask_app.git`
+  1. Clone the repository: `$ git clone https://github.com/kpedrozag/docker_flask_app.git` and go to the directory `cd docker_flask_app`
   2. Build the docker image: `$ docker build -t flask_app:v1 .`
   3. Run an instance of the image: `$ docker run --name my_flask_app -p 5000:5000 -d flask_app:v1`
